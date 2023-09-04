@@ -20,8 +20,10 @@ After you have cloned this repo:
   
 ### Screenshots
 
-<p>
-    <img src="![IMG_0562](https://github.com/Miikakyl/Alcometer-react-native/assets/101732034/26897943-0681-4757-ab9d-585ea4dade27)" hspace="10" >
-    <img src="" hspace="10" >
-    <img src="" hspace="10" >
-</p>
+<table>
+  <tr>
+    <td><img src="./assets/images/screenshot1.PNG" alt="Image 1" width="100"></td>
+    <td><img src="./assets/images/screenshot2.PNG" alt="Image 2" width="100"></td>
+    <td><img src="./assets/images/screenshot3.PNG" alt="Image 3" width="100"></td>
+  </tr>
+</table>
