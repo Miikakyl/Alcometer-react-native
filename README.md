@@ -22,8 +22,8 @@ After you have cloned this repo:
 
 <table>
   <tr>
-    <td><img src="./assets/images/screenshot1.PNG" alt="Image 1" width="100"></td>
-    <td><img src="./assets/images/screenshot2.PNG" alt="Image 2" width="100"></td>
-    <td><img src="./assets/images/screenshot3.PNG" alt="Image 3" width="100"></td>
+    <td><img src="./assets/images/screenshot1.PNG" alt="Image 1"></td>
+    <td><img src="./assets/images/screenshot2.PNG" alt="Image 2"></td>
+    <td><img src="./assets/images/screenshot3.PNG" alt="Image 3"></td>
   </tr>
 </table>
