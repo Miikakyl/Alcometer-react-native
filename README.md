@@ -21,7 +21,7 @@ After you have cloned this repo:
 ### Screenshots
 
 <p>
-    <img src="https://picsum.photos/100/100" hspace="10" >
-    <img src="https://picsum.photos/100/100" hspace="10" >
-    <img src="https://picsum.photos/100/100" hspace="10" >
+    <img src="![IMG_0562](https://github.com/Miikakyl/Alcometer-react-native/assets/101732034/26897943-0681-4757-ab9d-585ea4dade27)" hspace="10" >
+    <img src="" hspace="10" >
+    <img src="" hspace="10" >
 </p>
