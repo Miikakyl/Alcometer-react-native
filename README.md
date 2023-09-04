@@ -20,6 +20,8 @@ After you have cloned this repo:
   
 ### Screenshots
 
-![IMG_0562](https://github.com/Miikakyl/Alcometer-react-native/assets/101732034/58edcff2-884c-4bb5-9839-455e2e2c3402)
-![IMG_0564](https://github.com/Miikakyl/Alcometer-react-native/assets/101732034/e92bc819-f668-40e2-8f46-289979c07b2b)
-![IMG_0565](https://github.com/Miikakyl/Alcometer-react-native/assets/101732034/8513c357-76ef-4085-8e71-e8399d91a476)
+<p>
+    <img src="https://picsum.photos/100/100" hspace="10" >
+    <img src="https://picsum.photos/100/100" hspace="10" >
+    <img src="https://picsum.photos/100/100" hspace="10" >
+</p>
