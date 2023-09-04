@@ -1,20 +1,34 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { NavigationContainer } from '@react-navigation/native';
+import React, { useState } from 'react';
 
-export default function App() {
+import HomeScreen from './screens/HomeScreen'
+import ResultScreen from './screens/ResultScreen'
+
+export const ThemeContext = React.createContext()
+const Stack = createNativeStackNavigator();
+
+const App = () => {
+
+  const [theme, setTheme] = useState("light")
+  
+  /*This function is called in ThemeSwitch.js to change theme state to
+  update themes in child components. It takes boolean argument.  */
+  const changeTheme = (value) => {
+    setTheme(() => value === false ? "dark" : "light")
+  }
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+
+    <ThemeContext.Provider value={[theme,changeTheme]}>
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="home" component={HomeScreen} options={{ headerShown: false }} />
+          <Stack.Screen name="result" component={ResultScreen} options={{ headerShown: false }} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </ThemeContext.Provider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
