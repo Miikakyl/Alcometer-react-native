@@ -9,20 +9,19 @@ import sunIcon from '../assets/images/sun.png'
 
 
 const ThemeSwitch = () => {
-
-    const [themeOn,setThemeOn] = useContext(ThemeContext)
-    const [swicthOn,setSwitchOn] = useState()
-
-    const changeTheme = () => {
-        setSwitchOn((curr) => curr === false? true : false)
-        setThemeOn(swicthOn)
-    }
-    
-
-    /*When themeOn toggles between values light and dark, useffect is fired to
+     /*When themeOn toggles between values light and dark, useEffect is fired to
     change the state of switch, otherwise the switch shows wrong position when changing
     screen. */
 
+
+    const [themeOn,setThemeOn] = useContext(ThemeContext)
+    const [switchOn,setSwitchOn] = useState()
+
+    const changeTheme = () => {
+        setSwitchOn((curr) => curr === false? true : false)
+        setThemeOn(switchOn)
+    }
+    
     useEffect(() => {
         setSwitchOn(() => themeOn === "light"? false : true)
     }, [themeOn])
@@ -31,7 +30,7 @@ const ThemeSwitch = () => {
         <View style={styles.themeSwitchContainer}>
              <SwitchWithIcons
                 style={styles.themeSwitch}
-                value={swicthOn}
+                value={switchOn}
                 onValueChange={() => changeTheme()}
                 icon={{true: moonIcon, false:sunIcon}}
                 iconColor={{true:"#DBFF00",false:"#DBFF00"}}
