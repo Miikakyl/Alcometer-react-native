@@ -38,19 +38,16 @@ const Logo = ({ header, theme }) => {
                 style={[styles.beer, { height: 210, width: 100, bottom: -7}]}
                 source={beer}
                 resizeMode="contain"
-
             />
             <Image
                 style={[styles.beer, { height: 180, width: 100, right: 65, bottom: -7 }]}
                 source={beer}
                 resizeMode="contain"
-
             />
             <Image
                 style={[styles.beer, { height: 180, width: 100, left: 65, bottom: -7 }]}
                 source={beer}
                 resizeMode="contain"
-
             />
         </View>
     );

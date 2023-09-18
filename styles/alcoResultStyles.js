@@ -1,22 +1,14 @@
 import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
-   outerRound: {
-    justifyContent: "center",
-    alignItems: "center",
-    height: 255,
-    width: 255,
-    borderWidth: 0,
-    borderRadius: 300/2,
-    marginBottom: 25
-   },
-   innerRound: {
+   container: {
     justifyContent: "center",
     alignItems: "center",
     height: 230,
     width: 230,
-    borderWidth: 0,
-    borderRadius: 300/2
+    borderWidth: 10,
+    borderRadius: 230/2,
+    marginBottom: 25
    },
    resultText: {
     fontSize: 70
