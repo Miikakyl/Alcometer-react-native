@@ -7,6 +7,6 @@ export default StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'start',
         padding: 20,
-        height: "100%"
+        height: 800
     }
 })

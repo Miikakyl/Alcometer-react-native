@@ -14,7 +14,7 @@ export default StyleSheet.create({
   header: {
     zIndex: 3,
     color: "#FAFAFA",
-    fontSize: 60,
+    fontSize: 50,
     textShadowColor: "#1080E7",
     textShadowRadius: 15
   },
